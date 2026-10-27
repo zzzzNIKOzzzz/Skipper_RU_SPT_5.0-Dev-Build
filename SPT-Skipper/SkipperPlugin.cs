@@ -31,6 +31,8 @@ namespace Terkoiz.Skipper
         {
             Logger = Log;
             InitConfiguration();
+            Logger.LogInfo("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
+            Logger.LogInfo("______________________Skipper от zzzNIKOzzz загружается_______________________");
             Logger.LogInfo("[Skipper] загрузка патча:");
 
             try
@@ -54,8 +56,9 @@ namespace Terkoiz.Skipper
                 Logger.LogError($"[Skipper] Ошибка добавления компонента: {ex}");
             }
 
-            Logger.LogInfo("[Skipper] загрузка завершена");
+            Logger.LogInfo("[Skipper] Загрузка завершена");
             Logger.LogInfo("[Skipper] Перевод выполнил zzzNIKOzzz");
+            Logger.LogInfo("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
         }
 
         private void InitConfiguration()
